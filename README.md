@@ -8,7 +8,7 @@
  	- "***proposed_method.R***" and "***baseline_methods.R***": functions to implement the algorithms presented in the paper and the classical baseline algorithms.
   	- "***compare_to_baseline.R***" and "***compare_to_baseline_convex.R***": functions to present simulations including the performance compared to baselines under different matrix size and selected rank.
   	- "***compare_different_noise.R***" and "***compare_different_noise_convex.R***": functions to present simulations including the performance compared to baselines under different noise level.
-  	- "***matrix_denoising.R***": functions to present the perforamce gap for the random matrix estimator and baselines in the matrix denoising problem.
+  	- "***matrix_denoising.R***": functions to present the performance gap for the random matrix estimator and baselines in the matrix denoising problem.
   	- "***results_out.R***" and "***residual_plot.R***": functions to generate plots.
   	- "***xxx.sh***" : shell files to run the R scripts.
   	- Here also contains some auxiliary R scripts.
