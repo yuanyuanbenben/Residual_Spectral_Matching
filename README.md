@@ -14,6 +14,7 @@ Directory <strong><em>simulation</em></strong> contains all codes, outputs and p
         <li>Here also contains some auxiliary R scripts.</li>
         </li>
     </ui>
+    
 Directory <strong><em>real_data_example</em></strong> contains all codes, outputs and plots in the netflix data experiment.
     <ui>
         <li>The folder <strong><em>data</em></strong> contains preprocessed data in "<em>Section 5.2: Netflix rating data</em>".</li>
