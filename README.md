@@ -2,18 +2,18 @@
 
 ## Overview
 
-- Directory ***simulation*** contains all codes, outputs and plots in the simulation.
+- ### Directory ***simulation*** contains all codes, outputs and plots in the simulation.
 	- The folder ***output*** contains simulation results in "*Section 2.2: Motivated example:matrix denoising*" and "*Section 5.1: Simulation study*".
 	- The folder ***plot*** contains plots in "*Section 5.1: Simulation study*".
  	- "***proposed_method.R***" and "***baseline_methods.R***": functions to implement the algorithms presented in the paper and the classical baseline algorithms.
-  	- "***compare_to_baseline.R***" and "***compare_to_baseline_convex.R***": functions to present simulations including the performance compared to baselines under different matrix sizes and selected ranks.
+  	- "***compare_to_baseline.R***" and "***compare_to_baseline_convex.R***": functions to present simulations including the performance compared to baselines under different matrix size and selected rank.
   	- "***compare_different_noise.R***" and "***compare_different_noise_convex.R***": functions to present simulations including the performance compared to baselines under different noise level.
   	- "***matrix_denoising.R***": functions to present the perforamce gap for the random matrix estimator and baselines in the matrix denoising problem.
   	- "***results_out.R***" and "***residual_plot.R***": functions to generate plots.
   	- "***xxx.sh***" : shell files to run the R scripts.
   	- Here also contains some auxiliary R scripts.
 
-- Directory ***real_data_example*** contains all codes, data, outputs and plots in the netflix data experiment.
+- ### Directory ***real_data_example*** contains all codes, data, outputs and plots in the netflix data experiment.
 	- The folder ***data*** contains preprocessed data in "*Section 5.2: Netflix rating data*".
  	- The folder ***output*** contains numerical results in "*Section 5.2: Netflix rating data*".
   	- The folder ***plot*** contains plots in "*Section 5.2: Netflix rating data*".
@@ -24,7 +24,7 @@
   	-  "***realdata_plot.R***": functions to generate plots.
   	-  "***xxx.sh***" : shell files to run the R scripts.
   	-  Here also contains some auxiliary R scripts.
-- Directory ***real_data_example2*** contains all codes, data, outputs and plots in the amazon reviews data experiment.
+- ### Directory ***real_data_example2*** contains all codes, data, outputs and plots in the amazon reviews data experiment.
 	- The folder ***data*** contains preprocessed data in "*Section 5.3: Amazon reviews data*".
 	- The folder ***output*** contains numerical results in "*Section 5.3: Amazon reviews data*".
   	- The folder ***plot*** contains plots in "*Section 5.3: Amazon reviews data*".
@@ -35,5 +35,11 @@
   	- "***realdata_plot.R***": functions to generate plots.
   	- "***xxx.sh***" : shell files to run the R scripts.
   	- Here also contains some auxiliary R scripts.
-
+## Workflows
+### (Note) Change the path and set your own relative path in the line *setwd("your path...")* of each R script if the function exists.  
+- ### simulation for matrix denoising example.
+- ### Simulation under different matrix size and different rank.
+- ### Simulation under different noise level.
+- ### Real data example: Netflix data
+- ### Real data example: Amazon reviews data
  
