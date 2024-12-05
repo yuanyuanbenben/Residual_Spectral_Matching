@@ -39,7 +39,7 @@
 
  Note: Change the path and set your own relative path in the line "***setwd("your path of the folder/simulation")***" of each R script if this line exists in simulation and "***setwd("your path of the folder/real_data_example")***", "***setwd("your path of the folder/real_data_example2")***" in the Netflix data example and the Amazon reviews data example . 
 
-- ### simulation for matrix denoising example.
+- ### Simulation for matrix denoising example.
 	- run the shell file "***denoising.sh***" directly. 
 - ### Simulation under different matrix size and different rank.
 	- for the three case:*r = 5*, *r = 10* and *r = 20*, run the shell files "***simulation.sh***", "***simulation2.sh***", "***simulation3.sh***" for the results under different matrix size respectively of the rank constraint estimator and baseline.
