@@ -38,11 +38,23 @@
   	- 
 ## Workflows
 
-### Note: Change the path and set your own relative path in the line *setwd("your path of the folder/simulation")* of each R script if this line exists in simulation and *setwd("your path of the folder/real_data_example")*, *setwd("your path of the folder/real_data_example2")* in the Netflix data example and the Amazon reviews data example . 
+ Note: Change the path and set your own relative path in the line ***setwd("your path of the folder/simulation")*** of each R script if this line exists in simulation and ***setwd("your path of the folder/real_data_example")***, ***setwd("your path of the folder/real_data_example2")*** in the Netflix data example and the Amazon reviews data example . 
 
 - ### simulation for matrix denoising example.
+	- run the shell file ***denoising.sh*** directly. 
 - ### Simulation under different matrix size and different rank.
+	- for the three case:*r = 5*, *r = 10* and *r = 20*, run the shell files ***simulation.sh***, ***simulation2.sh***, ***simulation3.sh*** for the results under different matrix size respectively of the rank constraint estimator and baseline.
+ 	- for the three case:*r = 5*, *r = 10* and *r = 20*, run the shell files ***convex_simulation.sh***, ***convex_simulation2.sh***, ***convex_simulation3.sh*** for the results under different matrix size respectively of the nuclear norm estimator and baseline.
+	- for the three case:*r = 5*, *r = 10* and *r = 20*, run the shell files ***simulation_misrank.sh***, ***simulation_misrank2.sh***, ***simulation_misrank3.sh*** for the results under different selected rank respectively.
+	- run the R script ***results_out.R*** to get the numerical results and performance plots.
+ 	- run the R script ****residual_plot.R*** to get the plots of residual matrix singular values' distributions.  
 - ### Simulation under different noise level.
+	
 - ### Real data example: Netflix data
+	- If using the original data, download the ***netflix_data.zip*** at [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)) and unzip it as ***your path of the folder/real_data_example/netflix_data.csv***. Then run the R script ***realdata_preprocess.R*** to preprocess the original data. If not, omit this step. 
+	- run the shell files ***case1.sh***, ***case2.sh***, ***case3.sh***, ***case4.sh*** for the results of the rank constraint estimator, baseline and their modifications in scenario 1 to 4.
+ 	- run the shell files ***case1_convex.sh***, ***case2_convex.sh***, ***case3_convex.sh***, ***case4_convex.sh*** for the results of the nuclear norm estimator, baseline and their modifications in scenario 1 to 4.
+  	- run the shell files ***residual.sh*** for the spectral results of residual matrices in all scenarios and estimators.
+  	- run the R script ***realdata_plot.R*** to get the plots of singular values' distributions. 
 - ### Real data example: Amazon reviews data
  
