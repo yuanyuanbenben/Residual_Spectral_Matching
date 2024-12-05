@@ -35,8 +35,11 @@
   	- "***realdata_plot.R***": functions to generate plots.
   	- "***xxx.sh***" : shell files to run the R scripts.
   	- Here also contains some auxiliary R scripts.
+  	- 
 ## Workflows
-### (Note) Change the path and set your own relative path in the line *setwd("your path...")* of each R script if the function exists.  
+
+### Note: Change the path and set your own relative path in the line *setwd("your path of the folder/simulation")* of each R script if this line exists in simulation and *setwd("your path of the folder/real_data_example")*, *setwd("your path of the folder/real_data_example2")* in the Netflix data example and the Amazon reviews data example . 
+
 - ### simulation for matrix denoising example.
 - ### Simulation under different matrix size and different rank.
 - ### Simulation under different noise level.
