@@ -1,6 +1,7 @@
 # Materials for "Matrix_Completion_via_Residual_Spectral_Matching"
 
 ## Overview
+
 Directory <strong><em>simulation</em></strong> contains all codes, outputs and plots in the simulation.
     <ul>
         <li>The folder <strong><em>output</em></strong> contains simulation results in "<em>Section 2.2: Motivated example:matrix denoising</em>" and "<em>Section 5.1: Simulation study</em>".</li>
