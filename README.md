@@ -13,7 +13,7 @@
   	- "***xxx.sh***" : shell files to run the R scripts.
   	- Here also contains some auxiliary R scripts.
 
-- Directory ***real_data_example*** contains all codes, outputs and plots in the netflix data experiment.
+- Directory ***real_data_example*** contains all codes, data, outputs and plots in the netflix data experiment.
 	- The folder ***data*** contains preprocessed data in "*Section 5.2: Netflix rating data*".
  	- The folder ***output*** contains numerical results in "*Section 5.2: Netflix rating data*".
   	- The folder ***plot*** contains plots in "*Section 5.2: Netflix rating data*".
@@ -24,3 +24,16 @@
   	-  "***realdata_plot.R***": functions to generate plots.
   	-  "***xxx.sh***" : shell files to run the R scripts.
   	-  Here also contains some auxiliary R scripts.
+- Directory ***real_data_example2*** contains all codes, data, outputs and plots in the amazon reviews data experiment.
+	- The folder ***data*** contains preprocessed data in "*Section 5.3: Amazon reviews data*".
+	- The folder ***output*** contains numerical results in "*Section 5.3: Amazon reviews data*".
+  	- The folder ***plot*** contains plots in "*Section 5.3: Amazon reviews data*".
+  	- "***proposed_method.R***" and "***baseline_methods.R***": functions to implement the algorithms presented in the paper and the classical baseline algorithms.
+  	- "***amazon_data_preprocess.R***": functions for the preparation and preprocess of the real dataset.
+  	- "***amazon_data_test1.R***" to "***amazon_data_test4.R***": functions to compare the performance of our rank constraint method and baselines for scenario 1 to 4.
+  	- "***amazon_data_test1_convex.R***" to "***amazon_data_test4_convex.R***": functions to compare the performance of our rank constraint method and baselines for scenario 1 to 4.
+  	- "***realdata_plot.R***": functions to generate plots.
+  	- "***xxx.sh***" : shell files to run the R scripts.
+  	- Here also contains some auxiliary R scripts.
+
+ 
