@@ -1,7 +1,7 @@
 # Materials for "Matrix_Completion_via_Residual_Spectral_Matching"
 
 ## Overview
-### Directory <strong><em>simulation</em></strong> contains all codes, outputs and plots in the simulation.
+Directory <strong><em>simulation</em></strong> contains all codes, outputs and plots in the simulation.
     <ul>
         <li>The folder <strong><em>output</em></strong> contains simulation results in "<em>Section 2.2: Motivated example:matrix denoising</em>" and "<em>Section 5.1: Simulation study</em>".</li>
         <li>The folder <strong><em>plot</em></strong> contains plots in "<em>Section 5.1: Simulation study</em>".
@@ -14,8 +14,7 @@
         <li>Here also contains some auxiliary R scripts.</li>
         </li>
     </ui>
-    
-### Directory <strong><em>real_data_example</em></strong> contains all codes, outputs and plots in the netflix data experiment.
+Directory <strong><em>real_data_example</em></strong> contains all codes, outputs and plots in the netflix data experiment.
     <ui>
         <li>The folder <strong><em>data</em></strong> contains preprocessed data in "<em>Section 5.2: Netflix rating data</em>".</li>
         <li>The folder <strong><em>output</em></strong> contains numerical results in "<em>Section 5.2: Netflix rating data</em>".</li>
