@@ -1,4 +1,4 @@
-# Materials for "Matrix_Completion_via_Residual_Spectral_Matching"
+# Materials for "Residual spectral matching: a new perspective for matrix completion"
 
 ## Overview
 
