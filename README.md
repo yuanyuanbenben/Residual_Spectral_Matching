@@ -51,7 +51,7 @@
 	- run the shell file "***simulation_different_sigma.sh***" for the results under different noise level of the rank constraint estimator and baseline.
 	- run the shell file "***simulation_different_sigma_convex.sh***" for the results under different noise level of the nuclear norm estimator and baseline.
 - ### Real data example: Netflix data
-	- If using the original data, download the "***netflix_data.zip***" at [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)) and unzip it as "***your path of the folder/real_data_example/netflix_data.csv***". Then run the R script "***realdata_preprocess.R***" to preprocess the original data. If not, omit this step. 
+	- If using the original data, download the "***netflix_data.zip***" at [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) and unzip it as "***your path of the folder/real_data_example/netflix_data.csv***". Then run the R script "***realdata_preprocess.R***" to preprocess the original data. If not, omit this step. 
 	- run the shell files "***case1.sh***", "***case2.sh***", "***case3.sh***", "***case4.sh***" for the results of the rank constraint estimator, baseline and their modifications in scenario 1 to 4.
  	- run the shell files "***case1_convex.sh***", "***case2_convex.sh***", "***case3_convex.sh***", "***case4_convex.sh***" for the results of the nuclear norm estimator, baseline and their modifications in scenario 1 to 4.
   	- run the shell files "***residual.sh***" for the spectral results of residual matrices in all scenarios and estimators.
