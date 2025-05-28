@@ -1,5 +1,5 @@
 # Materials for "Residual spectral matching: a new perspective for matrix completion"
-
+<a href="https://arxiv.org/pdf/2412.10005">https://arxiv.org/pdf/2412.10005</a>
 ## Overview
 
 - ### Directory ***simulation*** contains all codes, outputs and plots in the simulation.
