@@ -1,0 +1,38 @@
+# R related
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Data files
+*.csv
+*.RData
+*.rda
+*.rds
+*.feather
+*.parquet
+*.xlsx
+
+# Output directories
+output/
+figures/
+plots/
+results/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.out
+
+# Large simulation outputs
+simulation/output/
+realdata/output/

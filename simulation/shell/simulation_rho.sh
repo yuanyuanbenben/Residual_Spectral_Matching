@@ -1,0 +1,79 @@
+#!/bin/bash
+
+function terminate_scripts {
+    echo "Terminating running scripts..."
+    pkill -P $$  
+    exit 1
+}
+
+
+trap terminate_scripts SIGINT
+
+# Get the directory where the script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SIMULATION_DIR="$(dirname "$SCRIPT_DIR")"
+
+# Change to simulation directory
+cd "$SIMULATION_DIR"
+
+# run for convex mathod simulation
+
+# m = 400 n = 200
+
+echo "rho=0.1"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 10 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+
+echo "rho=0.3"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 30 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.4"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 40 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.5"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 50 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.6"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 60 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.7"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 70 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.8"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 80 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=0.9"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 90 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "rho=1.0"
+# m = 400 n = 200
+nohup R --slave --vanilla --args 400 200 100 26 5 < compare_to_baseline.R > test2.log 2>&1 &
+echo "waiting..."
+wait
+
+echo "All scripts have been run successfully."
+
