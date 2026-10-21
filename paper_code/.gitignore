@@ -1,0 +1,26 @@
+# simulation output: result CSVs, per-job logs and the generated reports
+output_homo_*/
+output_hetero/
+output_misrank/
+output_paper_report.txt
+
+# real-data output: result CSVs, logs, cached reference spectra, report
+real_data/output_real/
+real_data/logs_real/
+real_data/cache/
+real_data/output_real_report.txt
+
+# R session leftovers
+.Rhistory
+.RData
+.Rproj.user/
+
+# editor / OS
+.vscode/
+.DS_Store
+
+# compiled artefacts from the optional cpp/ core
+cpp/*.o
+cpp/*.so
+cpp/*.dll
+cpp/*.dylib
