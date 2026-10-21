@@ -40,7 +40,7 @@ The matrix-denoising table is **not** part of this release.
 ## 1. Project Architecture
 
 ```
-paper_code/
+Residual_Spectral_Matching/
 ├── README.md
 ├── LICENSE                               # MIT
 ├── .gitignore
